@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latitude vs. Cloudiness</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- Navigation Section -->
+  <div class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" style="background-color: #0BADA6;" href="index.html">Latitude</a>
+      <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Comparisons.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Data.html">Data</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </div>
+      
+      <div class="container">
+          <div class="row">
+           <div class="col-md-1"></div>  
+             <div class="col-md-6">
+            <h1>Cloudiness</h1>
+              <img src="assets/images/Latitude_vs_Cloudiness.png" width="400" height="350">
+              <p>There was no correlation between latitude and cloudiness.</p>
+           </div>    
+             <div class="col-md-4 sidebar">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1>Visualizations</h1>
+                </div>
+              </div>
+             <div class="row">
+      
+                <div class="col-md-3">    
+                     <a href="max_temperature.html">Max Temperature<img src="assets/images/Latitude_vs._max_temp.png" width="200px" height="150px"></a>
+                </div>
+                <div class="col-md-3"></div>
+              
+                <div class="col-md-3">  
+                     <a href="humidity.html">Humidity<img src="assets/images/Latitude_vs_humidity.png" width="200px" height="150px"></a>
+                </div>
+                <div class="col-md-3"></div>  
+             </div>   
+             <div class ="row"> 
+                
+                <div class="col-md-3">  
+                  <a href="cloudiness.html">Cloudiness<img src="assets/images/Latitude_vs_Cloudiness.png" width="200px" height="150px"></a>
+                </div>
+                <div class="col-md-3"></div>
+                
+                <div class="col-md-3">     
+                  <a href="wind_speed.html">Wind Speed<img src="assets/images/Latitude_vs_Wind_Speed.png" width="200px" height="150px"></a>
+                </div>
+                <div class="col-md-3"></div>
+              </div>    
+           </div>         
+          <div class="col-md-1"></div>
+        </div>      
+      </div>	 	
+
+
+</body>
+</html>
